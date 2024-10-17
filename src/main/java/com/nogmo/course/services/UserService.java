@@ -12,6 +12,8 @@ import com.nogmo.course.repositories.UserRepository;
 import com.nogmo.course.services.exceptions.DatabaseExceptions;
 import com.nogmo.course.services.exceptions.ResourceNotFoundException;
 
+import jakarta.persistence.EntityNotFoundException;
+
 @Service
 public class UserService {
 
@@ -43,6 +45,9 @@ public class UserService {
 	}
 
 	public User update(Long id, User obj) {
+		if (!repository.existsById(id)) {
+			throw new ResourceNotFoundException(id);
+		}
 		User entity = repository.getReferenceById(id);
 		updateData(entity, obj);
 		return repository.save(entity);
