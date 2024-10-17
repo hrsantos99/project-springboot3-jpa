@@ -32,6 +32,6 @@ The project uses a relational database with the following tables:
 ![Domain Model](https://github.com/hrsantos99/project-springboot3-jpa/blob/main/assets/domainModel.png?raw=true)
 
 ## Contact
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seu-usuario-linkedin)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hrsantoss)
 
 [![Email](https://img.shields.io/badge/Email-henriquersantos99@outlook.com-blue?style=flat-square)](mailto:henriquersantos99@outlook.com)
